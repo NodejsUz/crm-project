@@ -1,2 +1,3 @@
 # crm-project
-Biror tashkilot uchun katta crm tizm
+
+O'quv markaz uchun crm tizim
