@@ -8,6 +8,7 @@ import swaggerDoc from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express";
 import Database from "./config/dbconnect";
 import ErrorHandling from "./middleware/error.handling";
+import authRouter from "./routers/auth.route";
 
 class App {
     private app: Application;
@@ -68,9 +69,7 @@ class App {
     }
 
     private routers(){
-        this.app.use("/", (req, res) => {
-            res.send("salom");
-        })
+        this.app.use("/api/auth", authRouter)
     }
 
     private errorHandling(){

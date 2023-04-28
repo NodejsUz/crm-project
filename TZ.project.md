@@ -66,3 +66,5 @@ Bo'limlar
         turli xildagi reklamalar
         xar bir xodimning vazifasi
         
+
+Turli xildagi integratsiyalar
