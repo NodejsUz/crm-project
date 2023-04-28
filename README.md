@@ -27,3 +27,5 @@ Loyihani ishlatish uchun yo'riqnoma
     REFRESH_TOKEN=
 
 ``
+
+Turli xil integratsiyalarni qilish
