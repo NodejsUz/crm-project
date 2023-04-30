@@ -1,18 +1,10 @@
 ## Loyihaning texnik topshiriqlar qismi
 
-Bo'limlar
-    - Talabalar
-        - ism familya
-        - telefon
-        - gruh
-        - o'qituvchisi
-        - kursi
-        - to'lovi
-        - davomat
+Bo'limlar - Talabalar - ism familya - telefon - gruh - o'qituvchisi - kursi - to'lovi - davomat
 
     O'qituvchilar
         umumiy o'qituvchilar
-        ularning yo'nalishari 
+        ularning yo'nalishari
         dars soatlari
         oylik maoshlari
 
@@ -20,7 +12,7 @@ Bo'limlar
         hammaga tegishli ma'lumotlar
         reklamalar
         fedbacklar
-        
+
     Kurslar
         gruh qo'shish
             ustoz
@@ -59,12 +51,11 @@ Bo'limlar
         rasmi
 
     notificationlar bilan ishlash(sms)
-        yangi gruhga qo'shilganda 
+        yangi gruhga qo'shilganda
         to'lov qilganda
 
     marketingni boshqarish
         turli xildagi reklamalar
         xar bir xodimning vazifasi
-        
 
 Turli xildagi integratsiyalar

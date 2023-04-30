@@ -1,31 +1,29 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 class Database {
-    private url: string
+  private url: string;
 
-    constructor(url: string) {
-        this.url  = url
+  constructor(url: string) {
+    this.url = url;
 
-        mongoose.set("strictQuery", false);
+    mongoose.set('strictQuery', false);
 
-        this.connection();
+    this.connection();
+  }
+
+  private connection() {
+    try {
+      mongoose.connect(this.url);
+
+      mongoose.connection.on('error', (err) => {
+        console.log(err);
+      });
+
+      console.log('Database connection success');
+    } catch (error: any) {
+      console.log(error.message);
     }
-
-    private connection(){
-        try {
-            mongoose.connect(this.url);
-
-            mongoose.connection.on("error", (err)=>{
-                console.log(err);
-            })
-
-            console.log("Database connection success");
-            
-        } catch (error: any) {
-            console.log(error.message);
-            
-        }
-    }
+  }
 }
 
-export default Database
+export default Database;
